@@ -105,6 +105,9 @@ Character special file - normal file, text, data
 
 7_Append_output_to_the_end_of_text_file.sh
 
+> => File will be overwritten
+>> => File wil be appeneded (extended)
+
 
 
 
