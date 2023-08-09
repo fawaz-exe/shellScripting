@@ -108,6 +108,16 @@ Character special file - normal file, text, data
 > => File will be overwritten
 >> => File wil be appeneded (extended)
 
+8_Logical_AND_Operator.sh
+
+-a , &&(using two conditions or [[]] ),  - AND Operator
+
+8_Logical_OR_Operator.sh
+
+-o, || 
+
+
+
 
 
 
