@@ -24,3 +24,38 @@ There are two types of variables
 2. User Defined Variables
     These are defined by the user
     The variable name should not be starting with a number
+
+
+3_Read_User-Input.sh
+
+read -p "username : " user_var # You can read the user input and output in same line
+echo "username : $user_var"
+
+read -sp => if you dont want to show the user input
+
+read -a names => These are arrays
+
+if you give 
+
+read => and give an input it will save the input in a built in variable called $REPLY
+
+4_Pass_Arguments_to_a_Bash_Script.sh
+
+How we can pass arguments
+
+Whenever you pass an argument it is stored to a default argument
+
+echo $1 $2 $3
+
+`$1 $2 $3 are default argument variables`
+echo $0 => prints name of the shell script
+
+$@ => stores data in an array
+
+$# => Prints the number of arguments
+
+5_if_Statement.sh
+
+
+
+

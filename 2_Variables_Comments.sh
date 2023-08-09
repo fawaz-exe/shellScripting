@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # this is a comment, I will never get exectued
 echo "Check the .sh file" # This is a comment beside the command
 
