@@ -86,5 +86,28 @@ String Comparsion
 
 6_File_Test_Operators.sh
 
+\c => Use to keep the cursor on the same line
+echo -e => enables the interpretation of '\'
+
+if -e => is for if the file exists or not
+if -f => is for if its file or not
+if -d => is for if its directory
+if -b => is for if its block special file
+if -c => is for if its character special file
+if -s => is for if the file is empty
+if -r => if readable or not
+if -w => if writable or not
+if -x => if executable or not
+
+
+Block special file - binary, picture, video
+Character special file - normal file, text, data
+
+7_Append_output_to_the_end_of_text_file.sh
+
+
+
+
+
 
 
