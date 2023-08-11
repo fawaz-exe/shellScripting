@@ -1,15 +1,21 @@
 #! /bin/bash
 
-ANIMAL="cat"
-echo -n "$ANIMAL is "
-case $ANIMAL in 
-    hawk)
-        echo "a bird"
+vechicle="$1"
+echo -n "$vechicle is "
+case $vechicle in 
+    "car")
+        echo "Rent of $car is 100 dollar"
         ;;
-    dog|cat) 
-        echo "a pet"
+    "van") 
+        echo "a van"
+        ;;
+    "bicycle")
+      echo "a bicycle"
+        ;;
+    "truck")
+      echo "a truck"
         ;;
     *)
-      echo "unknown"
+      echo "unknown vehicle"
         ;;
 esac

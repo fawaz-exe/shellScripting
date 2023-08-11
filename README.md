@@ -134,7 +134,15 @@ bc -l => Math Libaray which has the sqrt
 
 12_Case_Statement.sh
 
+* is the default case
+esac to end case scope
+;; to end statement scope
 
+13_Advanced_Casing.sh
+
+? accepts any special character
+
+14_Arrays.sh
 
 
 
