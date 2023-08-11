@@ -124,7 +124,15 @@ Character special file - normal file, text, data
 - expr command
     - Use normal variables $num1 with no extra parathesis
     - Cant use with astrik unless we use \*
-    
+
+11_Floating_Operations
+
+man bc
+syntax: echo "15+34" | bc
+Use Scale for float results in /
+bc -l => Math Libaray which has the sqrt
+
+12_Case_Statement.sh
 
 
 
