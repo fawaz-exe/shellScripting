@@ -108,17 +108,23 @@ Character special file - normal file, text, data
 > => File will be overwritten
 >> => File wil be appeneded (extended)
 
-8_Logical_AND_Operator.sh
+9_Logical_AND_Operator.sh
 
 -a , &&(using two conditions or [[]] ),  - AND Operator
 
 8_Logical_OR_Operator.sh
 
--o, || 
+-o, -OR, ||
 
 
+10_Arithmetic_Operations.sh
 
-
+- Enclose the variables to double brackets
+- Add $before the parenthesis
+- expr command
+    - Use normal variables $num1 with no extra parathesis
+    - Cant use with astrik unless we use \*
+    
 
 
 
