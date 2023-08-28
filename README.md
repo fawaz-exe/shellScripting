@@ -143,6 +143,45 @@ esac to end case scope
 ? accepts any special character
 
 14_Arrays.sh
+Syntax:
+
+    variable=('array1' 'array2' 'array3')
+
+    #print the array
+
+    echo "${os[@]}";
+
+15_While_Loops.sh
+
+    #! /bin/bash
+
+n=1
+
+while [ $n -le 10 ] 
+do
+    echo "$n"
+    n=$(( n+1 ))
+done
+
+while something is true
+ do this(commands)
+
+ done (stop)
+
+16_using_sleep_and_open_terminal_with_WHILE_loops.sh
+
+#! /bin/bash
+
+n=1
+
+while [ $n -le 10 ]
+do
+    echo "$n"
+    (( n++ ))
+    sleep 1
+done
+
+17_read_a_file_content_using_while.sh
 
 
 

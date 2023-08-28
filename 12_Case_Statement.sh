@@ -3,7 +3,7 @@
 vechicle="$1"
 echo -n "$vechicle is "
 case $vechicle in 
-    "car")
+     "car")
         echo "Rent of $car is 100 dollar"
         ;;
     "van") 
